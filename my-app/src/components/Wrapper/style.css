@@ -2,6 +2,7 @@
     background: #ECEFF1;
     height: 100%;
     width: 1000px;
+    
     margin: auto;
     display: flex;
     flex-flow: row wrap;

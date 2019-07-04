@@ -1,12 +1,11 @@
 .card {
     background: #fff;
     border-radius: 2px;
-   
     margin: 1rem;
-    position: relative;
+    /* position: relative; */
     width: 200px;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-    text-align: left;
+    
   }
   
   .card > .img-container {
@@ -18,21 +17,13 @@
   }
   .card > .img-container > img {
     height: 100%;
+    margin: 5px;
   }
   
-  .card > .content {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-size: 15px;
-  }
   
-  .card > .content > ul {
-    list-style-type: none;
-  }
   
-  .card > .content > ul > li {
-    margin-top: 18px;
-  }
+ 
+  
   
 
   

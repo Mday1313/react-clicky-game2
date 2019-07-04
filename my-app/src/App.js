@@ -10,27 +10,31 @@ import "./index.css";
 class App extends Component {
 
     state = {
-        cards
-      };
+        cards,
+        score: 0,
+        highscore: 0
+    };
+
+    // function to change the state of score
+    // if clicked once add to score then randomly move the cards,
+    // if clicked a second time, "you lose", save high score, restart game
+
+
 
     render() {
-        return(
+        return (
             <div>
-            <Nav></Nav>
-            <Title>Clicky Game</Title>
-            <Wrapper>
-               
-                
-                
-                {this.state.cards.map(card => (
-                    <PlayingCards
-                    id={card.id}
-                    key={card.id}
-                    image={card.image} 
-                    />
-                ))}
-               
-            </Wrapper>
+                <Nav></Nav>
+                <Title></Title>
+                <Wrapper>
+                    {this.state.cards.map(card => (
+                        <PlayingCards
+                            id={card.id}
+                            key={card.id}
+                            image={card.image}
+                        />
+                    ))}
+                </Wrapper>
             </div>
         );
     }
