@@ -77,7 +77,7 @@ class App extends Component {
     // function to change the state of score
     // if clicked once add to score then randomly move the cards,
     // if clicked a second time, "you lose", save high score, restart game
-    // setState and changeOnClick
+   
 
 
     render() {
