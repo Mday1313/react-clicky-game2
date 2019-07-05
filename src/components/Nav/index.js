@@ -5,7 +5,11 @@ function Nav(props) {
     return (
         <nav className="navbar navbar-dark bg-dark fixed-top">
             <span className="navbar-text">
-                Navbar text with an inline element
+                <div>Clicky Game</div>
+               
+                <div className="scores">
+      Score: {props.score} Highscore: {props.highscore}
+    </div>
             </span>
         </nav>
     );
