@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Wrapper from "./components/Wrapper";
 import Nav from "./components/Nav";
 import Title from "./components/Title";
-import cards from "./cards.json";
+import cards from "./cards.json.js.js";
 import PlayingCards from "./components/PlayingCards";
 import "./index.css";
 
